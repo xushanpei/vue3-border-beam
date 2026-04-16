@@ -1,0 +1,60 @@
+{
+  "name": "vue3-border-beam",
+  "version": "0.0.1",
+  "description": "Animated border beam effect for Vue 3",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:lib",
+    "build:lib": "vue-tsc --noEmit && vite build --mode lib",
+    "build:demo": "vue-tsc --noEmit && vite build --mode demo",
+    "check": "vue-tsc --noEmit",
+    "prepublishOnly": "npm run build:lib",
+    "pack:check": "npm pack --dry-run",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4",
+    "vue-tsc": "^2.2.8"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "animation",
+    "border",
+    "beam",
+    "glow",
+    "effect"
+  ],
+  "author": "前端开发爱好者",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xushanpei/vue3-border-beam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xushanpei/vue3-border-beam/issues"
+  },
+  "homepage": "https://github.com/xushanpei/vue3-border-beam#readme"
+}
