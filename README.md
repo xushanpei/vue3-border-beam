@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/vue3-border-beam)](https://www.npmjs.com/package/vue3-border-beam)
 [![npm downloads](https://img.shields.io/npm/dm/vue3-border-beam)](https://www.npmjs.com/package/vue3-border-beam)
 [![license](https://img.shields.io/npm/l/vue3-border-beam)](./LICENSE)
+[![github](https://img.shields.io/badge/GitHub-vue3--border--beam-181717?logo=github)](https://github.com/xushanpei/vue3-border-beam)
 
 Animated border beam effect for Vue 3, maintained by `前端开发爱好者`.
 
@@ -10,6 +11,14 @@ Animated border beam effect for Vue 3, maintained by `前端开发爱好者`.
 
 - npm: [vue3-border-beam](https://www.npmjs.com/package/vue3-border-beam)
 - GitHub: [xushanpei/vue3-border-beam](https://github.com/xushanpei/vue3-border-beam)
+
+## Repository
+
+- GitHub URL: https://github.com/xushanpei/vue3-border-beam
+
+```bash
+git clone https://github.com/xushanpei/vue3-border-beam.git
+```
 
 ## Features
 
